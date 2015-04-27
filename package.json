@@ -1,0 +1,50 @@
+{
+  "name": "prettify-markdown",
+  "description": "Prettify, format or beautify your markdown. Whatever you want to call it, this does that. Used on hundreds of projects by verb.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/prettify-markdown",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/prettify-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/prettify-markdown/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/prettify-markdown/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "beautifier",
+    "beautify",
+    "format",
+    "formatter",
+    "formatting",
+    "markdown",
+    "md",
+    "pretification",
+    "prettifier",
+    "prettify"
+  ],
+  "dependencies": {
+    "gfm-code-blocks": "^0.2.1"
+  }
+}
