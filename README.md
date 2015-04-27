@@ -16,7 +16,11 @@ This was just externalized from [verb], where this case was used on hundreds of 
 
 ```js
 var prettify = require('prettify-markdown');
+
+// pass a string of markdown
+var result = prettify(str);
 ```
+
 ## Related projects
 
 * [markdown-toc](https://github.com/jonschlinkert/markdown-toc): Generate a markdown TOC (table of contents) with Remarkable.
